@@ -1,14 +1,14 @@
-Aby skompilować i uruchomić grę należy użyć komendy 'make && ./flappy'
+To compile and run the game you have to type this in terminal: 'make && ./flappy' 
 
-Gra korzysta z bibliotek sfml-graphics, sfml-window, sfml-system, sfml-audio oraz funkcji PixelPerfectCollision (https://github.com/SonarSystems/SFML-Box2D-Tutorials/tree/master/SFML/Tutorial%20013%20-%20Pixel%20Perfect%20Collision%20Detection)
+Game uses following libraries: sfml-graphics, sfml-window, sfml-system, sfml-audio oraz funkcji PixelPerfectCollision (https://github.com/SonarSystems/SFML-Box2D-Tutorials/tree/master/SFML/Tutorial%20013%20-%20Pixel%20Perfect%20Collision%20Detection)
 
-W grze poruszamy się za pomocą spacji.
+To move the bird you simply have to press space.
 
-Kod składa się plików:
--main.cpp //gameloop, tworzenie obiektów
--Bird.cpp //Ptak, rysowanie i poruszanie się
--Collision.cpp //Dokładne kolizje
--Game.cpp //mechaniki gry, rysowanie planszy
--GameState //Stany gry
--Pipes.cpp //Rury
+Files and things they are doing:
+-main.cpp //gameloop, building objects
+-Bird.cpp //bird, drawing and moving
+-Collision.cpp //exact collisions
+-Game.cpp //game mechanics, draving background
+-GameState.cpp //gamestates
+-Pipes.cpp //Drawing and moving pipes
 
